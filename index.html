@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Company Card</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+            }
+
+            body {
+                background-color: #f5f5f5;
+                color: #333;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 40px auto;
+                padding: 20px;
+            }
+
+            .card {
+                background: white;
+                border-radius: 15px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+
+            .header {
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                color: white;
+                padding: 30px;
+                text-align: center;
+            }
+
+            .logo {
+                width: 120px;
+                height: 120px;
+                border-radius: 60px;
+                margin-bottom: 20px;
+                border: 4px solid white;
+                object-fit: cover;
+            }
+
+            .company-name {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .tagline {
+                font-size: 16px;
+                opacity: 0.9;
+            }
+
+            .content {
+                padding: 30px;
+            }
+
+            .section {
+                margin-bottom: 30px;
+            }
+
+            .section-title {
+                font-size: 20px;
+                font-weight: 500;
+                color: #1e3c72;
+                margin-bottom: 15px;
+            }
+
+            .ceo-profile {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .ceo-image {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin-right: 20px;
+                object-fit: cover;
+            }
+
+            .ceo-info {
+                flex: 1;
+            }
+
+            .ceo-name {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+
+            .contact-info {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+            }
+
+            .contact-item {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+            }
+
+            .contact-item i {
+                margin-right: 10px;
+                color: #1e3c72;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="header">
+                    <img
+                        src="company-logo.jpg"
+                        alt="Company Logo"
+                        class="logo"
+                    />
+                    <div class="company-name">Tech Solutions Inc.</div>
+                    <div class="tagline">Innovating for tomorrow</div>
+                </div>
+
+                <div class="content">
+                    <div class="section">
+                        <h2 class="section-title">About Us</h2>
+                        <p>
+                            Tech Solutions Inc. is a leading technology company
+                            specializing in innovative software solutions and
+                            digital transformation. With over 10 years of
+                            experience, we help businesses navigate the digital
+                            landscape and achieve their goals.
+                        </p>
+                    </div>
+
+                    <div class="section">
+                        <h2 class="section-title">CEO Profile</h2>
+                        <div class="ceo-profile">
+                            <img
+                                src="ceo-photo.jpg"
+                                alt="CEO"
+                                class="ceo-image"
+                            />
+                            <div class="ceo-info">
+                                <div class="ceo-name">John Smith</div>
+                                <p>
+                                    With 20+ years of industry experience, John
+                                    leads Tech Solutions Inc. with a vision to
+                                    revolutionize how businesses leverage
+                                    technology. Under his leadership, the
+                                    company has grown to serve clients
+                                    worldwide.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2 class="section-title">Contact Information</h2>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i>📍</i>
+                                <span>123 Tech Street, Silicon Valley, CA</span>
+                            </div>
+                            <div class="contact-item">
+                                <i>📞</i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i>✉️</i>
+                                <span>contact@techsolutions.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i>🌐</i>
+                                <span>www.techsolutions.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
