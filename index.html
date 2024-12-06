@@ -3,225 +3,238 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>IMK</title>
-
-        <!-- Add these meta tags for better direct opening -->
-        <meta property="og:url" content="https://imkqr.oblak.solutions" />
-        <meta
-            property="al:android:url"
-            content="https://imkqr.oblak.solutions"
-        />
-        <meta property="al:ios:url" content="https://imkqr.oblak.solutions" />
-
-        <!-- For iOS -->
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-        <!-- For Android -->
-        <meta name="mobile-web-app-capable" content="yes" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-            rel="stylesheet"
-        />
+        <title>IMK LABORATORY</title>
         <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: "Poppins", sans-serif;
-            }
-
             body {
-                background-color: #f5f5f5;
-                color: #333;
+                font-family: Arial, sans-serif;
                 line-height: 1.6;
-            }
-
-            .container {
+                color: #ecf0f1;
                 max-width: 800px;
-                margin: 40px auto;
+                margin: 0 auto;
                 padding: 20px;
+                background-color: #34495e;
+                background-image: url("/placeholder.svg?height=1080&width=1920");
+                background-size: cover;
+                background-attachment: fixed;
             }
-
-            .card {
-                background: white;
-                border-radius: 15px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                overflow: hidden;
+            h1,
+            h2,
+            h3 {
+                color: #ecf0f1;
             }
-
-            .header {
-                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-                color: white;
-                padding: 30px;
+            h1 {
                 text-align: center;
+                border-bottom: 2px solid #ecf0f1;
+                padding-bottom: 10px;
             }
-
-            .logo {
-                width: 120px;
-                height: 60px;
-                margin-bottom: 20px;
-                /* border-radius: 60px;
-                margin-bottom: 20px;
-                border: 4px solid white;
-                object-fit: cover; */
+            h2 {
+                margin-top: 30px;
             }
-
-            .company-name {
-                font-size: 24px;
-                font-weight: 600;
-                margin-bottom: 10px;
-            }
-
-            .tagline {
-                font-size: 16px;
-                opacity: 0.9;
-            }
-
-            .content {
-                padding: 30px;
-            }
-
-            .section {
-                margin-bottom: 30px;
-            }
-
-            .section-title {
-                font-size: 20px;
-                font-weight: 500;
-                color: #1e3c72;
+            p {
                 margin-bottom: 15px;
             }
-
-            .ceo-profile {
+            .section {
+                background: linear-gradient(to bottom, #2c3e50, #3498db);
+                color: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                font-style: italic;
+                color: #ecf0f1;
+            }
+            .image-placeholder {
+                width: 100%;
+                height: 200px;
+                background-color: rgba(236, 240, 241, 0.1);
                 display: flex;
+                justify-content: center;
                 align-items: center;
                 margin-bottom: 20px;
+                border-radius: 5px;
+            }
+            a {
+                color: #f39c12;
+                text-decoration: none;
             }
 
-            .ceo-image {
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                margin-right: 20px;
-                object-fit: cover;
-            }
-
-            .ceo-info {
-                flex: 1;
-            }
-
-            .ceo-name {
-                font-size: 18px;
-                font-weight: 500;
-                margin-bottom: 5px;
-            }
-
-            .contact-info {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 15px;
-            }
-
-            .contact-item {
-                display: flex;
-                align-items: center;
-                padding: 10px;
-                background-color: #f8f9fa;
-                border-radius: 8px;
-            }
-
-            .contact-item i {
-                margin-right: 10px;
-                color: #1e3c72;
+            a:hover {
+                text-decoration: underline;
             }
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="card">
-                <div class="header">
-                    <img src="IMK logo.png" alt="Company Logo" class="logo" />
-                    <!-- <div class="company-name">Tech Solutions Inc.</div> -->
-                    <div class="tagline">Innovating for tomorrow</div>
-                </div>
+        <h1>IMK LABORATORY</h1>
 
-                <div class="content">
-                    <div class="section">
-                        <h2 class="section-title">About Us</h2>
-                        <p>
-                            <!-- Tech Solutions Inc. is a leading technology company
-                            specializing in innovative software solutions and
-                            digital transformation. With over 10 years of
-                            experience, we help businesses navigate the digital
-                            landscape and achieve their goals. -->
-                            The company Material Testing and Consulting LLC was
-                            founded in 2021. The main activity of IMK LLC is
-                            laboratory testing in the field of construction and
-                            industry, as well as consulting services in the
-                            industrial sector. With successful operations in its
-                            areas and the professional staff the company
-                            possesses, in 2022, a potential partner from
-                            Switzerland showed interest in the company. In 2023,
-                            IMK LLC transitioned from a domestic company to an
-                            international company by acquiring a partner from
-                            Switzerland and became IMK DOO. In the same year,
-                            the company received financial support from the SEKO
-                            startup fund, a fund that recognized the quality and
-                            vision of the two young entrepreneurs. The
-                            laboratory is fully equipped to meet any challenge
-                            in the field of material quality testing in the
-                            construction industry, with the latest instruments
-                            for field and laboratory testing. Material testing
-                            is carried out according to the latest EN and MKS
-                            standards.
-                        </p>
-                    </div>
-
-                    <div class="section">
-                        <h2 class="section-title">CEO Profile</h2>
-                        <div class="ceo-profile">
-                            <img
-                                src="ceo-photo.jpg"
-                                alt="CEO"
-                                class="ceo-image"
-                            />
-                            <div class="ceo-info">
-                                <div class="ceo-name">Stanko Ilich Popov</div>
-                                <p>
-                                    With 20+ years of industry experience, Popov
-                                    leads IMK with a vision to revolutionize how
-                                    businesses leverage technology. Under his
-                                    leadership, the company has grown to serve
-                                    many satisfied client.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="section">
-                        <h2 class="section-title">Contact Information</h2>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <i>📍</i>
-                                <span>16-та Македонска бригада бр. 18</span>
-                            </div>
-                            <div class="contact-item">
-                                <i>📞</i>
-                                <span>+389 70 279 877</span>
-                            </div>
-                            <div class="contact-item">
-                                <i>✉️</i>
-                                <span>stanko@imk.mk</span>
-                            </div>
-                            <div class="contact-item">
-                                <i>🌐</i>
-                                <span>www.imk.mk</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="section">
+            <div class="image-placeholder">
+                <img
+                    src="/placeholder.svg?height=200&width=400"
+                    alt="IMK Laboratory"
+                />
             </div>
+            <h2>Who we are?</h2>
+            <p>Established in 2021 from chemical engineer Stanko Ilikj Popov</p>
+            <p>
+                Main goals when the laboratory was opened were chemical and
+                mechanical control of building materials for civil construction,
+                innovations in the waste industry management, innovations in
+                usage of industrial waste, increasing the environmental
+                awareness threw using industrial, communal and civil
+                construction waste as raw materials for new products.
+            </p>
+            <p>
+                In 2022 the company IMK got the attention of a Switzerland
+                potential partner and by the end of year 2022 got foreign
+                capital for investing in laboratory instruments.
+            </p>
+            <p>
+                In the same year IMK was supported by start up fond SECO
+                (Federal Department of Economic Affairs of Switzerland).
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>What we have done so far?</h2>
+            <div class="image-placeholder">
+                <img
+                    src="/placeholder.svg?height=200&width=400"
+                    alt="Our Achievements"
+                />
+            </div>
+            <h3>
+                Environmental study for EuroNickel Industri Kavadarci for using
+                generators for electricity production
+            </h3>
+            <p>
+                The study was done for usage of heavy oil as burning fuel for
+                electricity production. The problem was the aero pollution and
+                the content of sulphur in the heavy oil. The solution that IMK
+                presented was SCR catalyst unit decreasing the levels of
+                pollutants to permissible limits.
+            </p>
+
+            <h3>Hexavalent chromium neutralization from dump fill Jugohrom</h3>
+            <p>
+                IMK as company developed chemical method for neutralization of
+                hexavalent chromium present in solid and liquid materials with
+                using of advanced machinery and techniques.
+            </p>
+            <p>
+                The same approach of work can be used for arsenic, cyanide and
+                heavy metal removal.
+            </p>
+            <p>
+                The content of hexavalent chromium in the samples was decreased
+                from 2.5 g/l to 0.005 mg/l.
+            </p>
+
+            <h3>Creating briquettes from industrial waste</h3>
+            <p>
+                Iron, copper and zinc are materials which are getting more and
+                more expensive by the day
+            </p>
+            <p>
+                IMK laboratory found a suitable bonding mixture to make
+                briquettes from industrial waste with small granulation creating
+                briquettes. These briquettes can be transported as raw material
+                for high furnaces or melt shops and the material can be
+                transported as solid form not in ash form.
+            </p>
+
+            <h3>
+                Using metallurgical sludge as base material for bedding and
+                bonding
+            </h3>
+            <p>
+                IMK Laboratory used washed metallurgical sludge for increasing
+                the heat resistance and earthquake resistance of bedding
+                materials
+            </p>
+            <p>
+                In this research the goal was to stabilize the bed of the soil
+                where civil construction should take place making it
+                seismologically more stable
+            </p>
+
+            <h3>
+                Reusing of old tires and creating energy, heat and paving
+                elements
+            </h3>
+            <p>
+                IMK generated a way of using old tyres and giving them a new
+                life form and new usage as energy fuel, heat producer and raw
+                material for paving elements.
+            </p>
+
+            <h3>Other Achievements</h3>
+            <ul>
+                <li>
+                    Producing of wall tiles made from waste marble considered as
+                    no usable material in marble quarries
+                </li>
+                <li>
+                    Using metallurgical forgery as raw material for iron
+                    briquettes (from waste to raw material)
+                </li>
+                <li>Usage of lime waste for facade base</li>
+            </ul>
+
+            <h3>Producing fertilizer from sludge from EAF furnace</h3>
+            <p>
+                By separating the metallic from non metallic part from the
+                sludge from EAF furnace we can get two portions of usable
+                material
+            </p>
+            <p>One portion is metallic part rich with iron</p>
+            <p>
+                Thomas phosphate, also called Thomas flour or Thomas slag, is a
+                phosphorus-rich by-product that is formed in the Tomas Process,
+                where limestone is used to remove phosphorus from the iron.
+                Thomas phosphate contains approximately 43% CaO and 21% P2O5 .
+                The rest is mainly FeO and SiO2
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>What are our future plans?</h2>
+            <div class="image-placeholder">
+                <img
+                    src="/placeholder.svg?height=200&width=400"
+                    alt="Future Plans"
+                />
+            </div>
+            <p>
+                We as a laboratory state that there is no material that can not
+                be reused as raw material for producing a product
+            </p>
+            <p>
+                Secondary materials are very important part of todays circular
+                economy and we are prepared to find a suitable usage for all
+                industrial and civil construction waste materials
+            </p>
+            <p>
+                Raw materials from industrial dump fills are an environmental
+                problem if not treated and reused for another purpose
+            </p>
+            <p>
+                Civil construction waste materials are also an environmental
+                problem if left on municipal dump fills because the time needed
+                for their decomposition is very long
+            </p>
+            <p>
+                We will continue our work and our innovation in this field and
+                find a suitable solution for every partner and client.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Thank you for your attention</p>
+            <p>IMK team</p>
         </div>
     </body>
 </html>
