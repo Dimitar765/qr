@@ -4,6 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>IMK LABORATORY</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -132,26 +137,66 @@
                 max-width: 300px;
                 width: 100%;
             }
+
+            .footer {
+                margin-top: 40px;
+                padding: 40px 20px 20px 20px;
+            }
+
+            .footer-content {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+
+            .footer-section {
+                flex: 1;
+                min-width: 250px;
+                margin-bottom: 20px;
+            }
+
+            .footer-section h4 {
+                color:s #2563eb;
+                margin-bottom: 15px;
+                font-size: 1.2em;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+                padding-bottom: 5px;
+            }
+
+            .footer-section p {
+                margin-bottom: 10px;
+            }
+
+            .footer-section ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .footer-section ul li {
+                margin-bottom: 8px;
+            }
+
+            .footer-bottom {
+                text-align: center;
+                margin-top: 30px;
+                padding-top: 20px;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            @media (max-width: 768px) {
+                .footer-section {
+                    flex: 100%;
+                    text-align: center;
+                }
+
+                .footer-content {
+                    flex-direction: column;
+                }
+            }
         </style>
     </head>
     <body>
-        <!-- <div
-            class="section"
-            style="
-                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
-                position: relative;
-            "
-        >
-            <div
-                style="
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                "
-            >
-                <h1>IMK LABORATORY</h1>
-                <img src="./public/imk.svg" style="height: 100px" />
-            </div> -->
         <div class="section header">
             <div class="header-content">
                 <h1>IMK LABORATORY</h1>
@@ -363,19 +408,35 @@
             "
         >
             <h3>
-                Using metallurgical sludge as base material for bedding and
-                bonding
+                Producing of wall tiles made from waste marble considered as no
+                usable material in marble quarries
             </h3>
-            <p>
-                IMK Laboratory used washed metallurgical sludge for increasing
-                the heat resistance and earthquake resistance of bedding
-                materials
-            </p>
-            <p>
-                In this research the goal was to stabilize the bed of the soil
-                where civil construction should take place making it
-                seismologically more stable
-            </p>
+
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5px;
+                "
+            >
+                <img src="./public/8.png" style="width: 300px; height: 300px" />
+                <img src="./public/9.png" style="width: 300px; height: 300px" />
+            </div>
+        </div>
+
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
+            <h3>
+                Using metallurgical forgery as raw material for iron briquettes
+                (from waste to raw material)
+            </h3>
+
             <div
                 style="
                     display: flex;
@@ -394,7 +455,6 @@
                 />
             </div>
         </div>
-
         <div
             class="section"
             style="
@@ -407,6 +467,98 @@
                 <img src="./public/12.png" />
                 <img src="./public/13.jpg" />
                 <img src="./public/14.jpg" />
+            </div>
+        </div>
+
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
+            <h3>Producing fertilizer from sludge from EAF furnace</h3>
+            <p>
+                By separating the metallic from non metallic part from the
+                sludge from EAF furnace we can get two portions of usable
+                material.
+            </p>
+            <p>One portion is metallic part rich with iron.</p>
+            <p>
+                Thomas phosphate, also called Thomas flour or Thomas slag, is a
+                phosphorus-rich by-product that is formed in the Tomas Process,
+                where limestone is used to remove phosphorus from the iron.
+                Thomas phosphate contains approximately 43% CaO and 21% P2O5.
+                The rest is mainly FeO and SiO2.
+            </p>
+        </div>
+
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
+            <h3>What are our future plans?</h3>
+            <ul>
+                <li>
+                    We as a laboratory state that there is no material that can
+                    not be reused as raw material for producing a product.
+                </li>
+                <li>
+                    Secondary materials are very important part of todays
+                    circular economy and we are prepared to find a suitable
+                    usage for all industrial and civil construction waste
+                    materials.
+                </li>
+                <li>
+                    Raw materials from industrial dump fills are an
+                    environmental problem if not treated and reused for another
+                    purpose.
+                </li>
+                <li>
+                    Civil construction waste materials are also an environmental
+                    problem if left on municipal dump fills because the time
+                    needed for their decomposition is very long.
+                </li>
+                <li>
+                    We will continue our work and our innovation in this field
+                    and find a suitable solution for every partner and client.
+                </li>
+            </ul>
+        </div>
+
+        <div
+            class="section footer"
+            style="
+            background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+            <!-- color: white; -->
+        "
+        >
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Address: 16
+                        Makedonska Brigada, No.18, Macedonia
+                    </p>
+                    <p><i class="fas fa-phone"></i> Phone: +389 70 279 877</p>
+                    <p><i class="fas fa-envelope"></i> Email: stanko@imk.mk</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Laboratory Services</h4>
+                    <ul>
+                        <li>Chemical Analysis</li>
+                        <li>Material Testing</li>
+                        <li>Environmental Studies</li>
+                        <li>Waste Management Solutions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IMK Laboratory. All rights reserved.</p>
             </div>
         </div>
     </body>
