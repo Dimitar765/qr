@@ -57,14 +57,16 @@
         </style>
     </head>
     <body>
-        <h1>IMK LABORATORY</h1>
-
-        <div class="section">
-            <div class="image-placeholder">
-                <img
-                    src="/placeholder.svg?height=200&width=400"
-                    alt="IMK Laboratory"
-                />
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
+            <div style="display: flex; justify-content: space-around">
+                <h1>IMK LABORATORY</h1>
+                <img src="./public/imk.svg" style="height: 100px" />
             </div>
             <h2>Who we are?</h2>
             <p>Established in 2021 from chemical engineer Stanko Ilikj Popov</p>
@@ -221,7 +223,14 @@
                     seismologically more stable
                 </p>
             </div>
-            <div style="display: flex; justify-content: space-around">
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    align-items: center;
+                "
+            >
                 <img
                     src="./public/5.jpg"
                     alt="Our Achievements"
@@ -254,7 +263,9 @@
                 style="
                     display: flex;
                     justify-content: space-evenly;
-                    width: 100%;
+                    flex-direction: column;
+                    gap: 5px;
+                    align-items: center;
                 "
             >
                 <img
