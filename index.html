@@ -8,23 +8,22 @@
             body {
                 font-family: Arial, sans-serif;
                 line-height: 1.6;
-                color: #ecf0f1;
+                color: #333;
                 max-width: 800px;
                 margin: 0 auto;
                 padding: 20px;
-                background-color: #34495e;
+                background-color: #f4f4f4;
                 background-image: url("/placeholder.svg?height=1080&width=1920");
                 background-size: cover;
                 background-attachment: fixed;
             }
             h1,
-            h2,
-            h3 {
-                color: #ecf0f1;
+            h2 {
+                color: #2c3e50;
             }
             h1 {
                 text-align: center;
-                border-bottom: 2px solid #ecf0f1;
+                border-bottom: 2px solid #2c3e50;
                 padding-bottom: 10px;
             }
             h2 {
@@ -34,8 +33,7 @@
                 margin-bottom: 15px;
             }
             .section {
-                background: linear-gradient(to bottom, #2c3e50, #3498db);
-                color: white;
+                background-color: rgba(255, 255, 255, 0.9);
                 padding: 20px;
                 margin-bottom: 20px;
                 border-radius: 5px;
@@ -45,25 +43,16 @@
                 text-align: center;
                 margin-top: 40px;
                 font-style: italic;
-                color: #ecf0f1;
             }
             .image-placeholder {
                 width: 100%;
                 height: 200px;
-                background-color: rgba(236, 240, 241, 0.1);
+                background-color: #ddd;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-bottom: 20px;
                 border-radius: 5px;
-            }
-            a {
-                color: #f39c12;
-                text-decoration: none;
-            }
-
-            a:hover {
-                text-decoration: underline;
             }
         </style>
     </head>
@@ -98,14 +87,14 @@
             </p>
         </div>
 
-        <div class="section">
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
             <h2>What we have done so far?</h2>
-            <div class="image-placeholder">
-                <img
-                    src="/placeholder.svg?height=200&width=400"
-                    alt="Our Achievements"
-                />
-            </div>
             <h3>
                 Environmental study for EuroNickel Industri Kavadarci for using
                 generators for electricity production
@@ -118,6 +107,29 @@
                 pollutants to permissible limits.
             </p>
 
+            <div
+                style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding: 20px;
+                "
+            >
+                <img
+                    src="./public/1.jpg"
+                    alt="Our Achievements"
+                    style="width: 200px; height: 150px"
+                />
+            </div>
+        </div>
+
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
             <h3>Hexavalent chromium neutralization from dump fill Jugohrom</h3>
             <p>
                 IMK as company developed chemical method for neutralization of
@@ -133,20 +145,125 @@
                 from 2.5 g/l to 0.005 mg/l.
             </p>
 
+            <div
+                style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding: 20px;
+                "
+            >
+                <img
+                    src="./public/2.jpg"
+                    alt="Our Achievements"
+                    style="width: 300px; height: 200px"
+                />
+            </div>
+        </div>
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
             <h3>Creating briquettes from industrial waste</h3>
-            <p>
-                Iron, copper and zinc are materials which are getting more and
-                more expensive by the day
-            </p>
-            <p>
-                IMK laboratory found a suitable bonding mixture to make
-                briquettes from industrial waste with small granulation creating
-                briquettes. These briquettes can be transported as raw material
-                for high furnaces or melt shops and the material can be
-                transported as solid form not in ash form.
-            </p>
+            <div style="display: flex; gap: 10px">
+                <img
+                    src="./public/3.png"
+                    alt="Our Achievements"
+                    style="height: 200px"
+                />
+                <div>
+                    <p>
+                        Iron, copper and zinc are materials which are getting
+                        more and more expensive by the day
+                    </p>
+                    <p>
+                        IMK laboratory found a suitable bonding mixture to make
+                        briquettes from industrial waste with small granulation
+                        creating briquettes. These briquettes can be transported
+                        as raw material for high furnaces or melt shops and the
+                        material can be transported as solid form not in ash
+                        form.
+                    </p>
+                </div>
+            </div>
 
+            <div style="display: flex; justify-content: flex-end">
+                <img
+                    src="./public/4.jpg"
+                    alt="Our Achievements"
+                    style="width: 200px; height: 200px"
+                />
+            </div>
+        </div>
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
+            <div>
+                <h3>
+                    Using metallurgical sludge as base material for bedding and
+                    bonding
+                </h3>
+                <p>
+                    IMK Laboratory used washed metallurgical sludge for
+                    increasing the heat resistance and earthquake resistance of
+                    bedding materials
+                </p>
+                <p>
+                    In this research the goal was to stabilize the bed of the
+                    soil where civil construction should take place making it
+                    seismologically more stable
+                </p>
+            </div>
+            <div style="display: flex; justify-content: space-around">
+                <img
+                    src="./public/5.jpg"
+                    alt="Our Achievements"
+                    style="width: 300px; height: 200px"
+                />
+                <img
+                    src="./public/6.jpg"
+                    alt="Our Achievements"
+                    style="width: 300px; height: 200px"
+                />
+            </div>
+        </div>
+        <div
+            class="section"
+            style="
+                background: linear-gradient(to right, #e6f3ff, #b3d9ff);
+                position: relative;
+            "
+        >
             <h3>
+                Reusing of old tires and creating energy, heat and paving
+                elements
+            </h3>
+            <p>
+                IMK generated a way of using old tyres and giving them a new
+                life form and new usage as energy fuel, heat producer and raw
+                material for paving elements.
+            </p>
+            <div style="display: flex; justify-content: space-evenly">
+                <img
+                    src="./public/7.jpg"
+                    alt="Our Achievements"
+                    style="width: 300px"
+                />
+                <img
+                    src="./public/71.jpg"
+                    alt="Our Achievements"
+                    style="width: 300px"
+                />
+            </div>
+        </div>
+        <!-- <h3>
                 Using metallurgical sludge as base material for bedding and
                 bonding
             </h3>
@@ -160,8 +277,9 @@
                 where civil construction should take place making it
                 seismologically more stable
             </p>
-
-            <h3>
+        </div>
+        <div class="section"
+        <h3>
                 Reusing of old tires and creating energy, heat and paving
                 elements
             </h3>
@@ -235,6 +353,6 @@
         <div class="footer">
             <p>Thank you for your attention</p>
             <p>IMK team</p>
-        </div>
+        </div> -->
     </body>
 </html>
